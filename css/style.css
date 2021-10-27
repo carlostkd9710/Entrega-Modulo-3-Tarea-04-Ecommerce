@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    background-color:black;
+}
+.description{
+    height: 10px;
+    overflow: hidden;
+    transition: height .1s ease-in .4s ;
+    color: rgba(0, 0, 0,0.1);
+}
+.description:hover{
+    height: 100px;
+    color: whitesmoke;
+}
+#footer{
+    background-color:gray;
+}
